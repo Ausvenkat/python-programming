@@ -1,0 +1,17 @@
+a=50
+b=10
+c=30
+d=5
+e=15
+f=45
+g=45
+h=80
+i=35
+j=25
+print(a+b)
+print(c-d)
+print(d*e)
+print(e/d)
+print(h%i)
+print(j**i)
+print(abs(g))

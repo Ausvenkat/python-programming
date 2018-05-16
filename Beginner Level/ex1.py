@@ -1,5 +1,5 @@
-num = int(input())
-if (1<= num <= 100000) :
+num = float(input("Enter a number: "))
+if num > 0:
    print("Positive number")
 elif num == 0:
    print("Zero")

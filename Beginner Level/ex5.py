@@ -8,4 +8,4 @@ elif (s>=t and s>=v):
 elif (t>=v and t>=s):
      print(t)
 else:
-     print("InvaildInput")
+     print("Invaild Input")

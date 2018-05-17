@@ -1,5 +1,5 @@
 try:
-	a="hello \n"
+	a="HELLO \n"
 	b=int(input())
 	i=a*b
 	print (i)

@@ -4,4 +4,4 @@ try:
 	i=a*b
 	print (i)
 except:
-	print("Invalid Input")
+        print("Invalid Input")

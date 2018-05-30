@@ -1,11 +1,12 @@
 try:
-	r=int(input())
-	for a in range(2,r+1):
-	     k=0
-	     for i in range(2,a//2+1):
-	          if(a%i==0):
-                           k=k+1
-	     if(k<=0):
-	          print(a)
+	lower = int(input())
+	upper = int(input())
+	for num in range(lower,upper + 1):
+	     if num > 1:
+	          for i in range(2,num):
+	               if (num % i) == 0:
+            	        break
+	          else:
+	                 print(num)
 except:
 	print("Invalid Input")

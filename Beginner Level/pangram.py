@@ -1,6 +1,6 @@
-a=raw_input().split()
+v=raw_input().split()
 res=[]
-for i in a:
+for i in v:
 	for j in range(0,len(i)):
 		if i[j].isdigit():
 			continue

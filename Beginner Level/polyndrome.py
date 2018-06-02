@@ -1,12 +1,12 @@
-a=raw_input()
-b=a[::-1]
-if a==b:
+v=raw_input()
+d=v[::-1]
+if v==d:
 	print "0"
 else:
 	s=0
 	l=[]
-	for i in range(0,len(a)):
-		l.append(a[i])
+	for i in range(0,len(v)):
+		l.append(v[i])
 	res=[]
 	for i in l:
 		if l.count(i)==1:

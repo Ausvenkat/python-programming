@@ -1,9 +1,9 @@
 try:
-	v=int(input())
+	n=int(input())
 	fact=1
-	while(v>0):
-	    fact=fact*v
-      v=v-1
+	while(n>0):
+	    fact=fact*n
+	    n=n-1
 	print(fact)
 except:
-	print("InvalidInput")
+	print("Invalid")

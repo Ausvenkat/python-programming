@@ -1,2 +1,2 @@
-	v=str(input())
-	print(v+'.')
+a=str(input())
+print(a+'.')

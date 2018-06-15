@@ -1,0 +1,9 @@
+try:
+	v=int(input())
+	fact=1
+	while(v>0):
+	    fact=fact*v
+      v=v-1
+	print(fact)
+except:
+	print("InvalidInput")

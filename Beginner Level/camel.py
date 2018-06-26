@@ -1,5 +1,5 @@
-def snake_to_camel(word):
-        import re
-        return ''.join(a.capitalize() or '_' for a in word.split('_'))
+c=str(input())
+d=str(input())
+print(c.capitalize())
+print(d.capitalize())
 
-print(snake_to_camel('python_exercises'))

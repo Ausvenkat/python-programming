@@ -1,7 +1,7 @@
-a = int(input())
-b = int(input())
-temp = a
-a = b
-b = temp
-print('{}'.format(a))
-print('{}'.format(b))
+x = int(input())
+y = int(input())
+temp = x
+x = y
+y = temp
+print('{}'.format(x))
+print('{}'.format(y))

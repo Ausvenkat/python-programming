@@ -1,7 +1,7 @@
-n=int(input())
+a=int(input())
 tot=0
-while(n>0):
-    dig=n%10
+while(a>0):
+    dig=a%10
     tot=tot+dig
-    n=n//10
+    a=a//10
 print(tot)

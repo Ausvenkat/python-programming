@@ -1,3 +1,3 @@
-x=str(input())
-y=int(input())
-print(x[ :y])
+a=str(input())
+b=int(input())
+print(a[ :b])

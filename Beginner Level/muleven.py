@@ -1,7 +1,7 @@
-x=int(input())
-y=int(input())
-z=x*y
-if(z%2)==0:
+a=int(input())
+b=int(input())
+c=a*b
+if(c%2)==0:
      print('even')
 else:
      print('odd')

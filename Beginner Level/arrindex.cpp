@@ -10,6 +10,6 @@ int main() {
      	cin>>k[i];
      }
      for(int i=0;i<n;i++){
-     cout<<k[i]<<"\t"<<i<<"\t";
+     cout<<k[i]<<"\t"<<i<<"\n";
      }
 }

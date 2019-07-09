@@ -2,16 +2,16 @@
 using namespace std;
 int main ()
 {
-    int arr[10],n,i,max;
+    int arr[10],n,i,m;
     cin >> n;
     for (i = 0; i < n; i++)
         cin >> arr[i];
-    max = arr[0];
+    m = arr[0];
     for (i = 0; i < n; i++)
     {
-        if (max < arr[i])
-            max = arr[i];
+        if (m < arr[i])
+            m = arr[i];
     }
-    cout<<max;
+    cout<<m;
         return 0;
 }

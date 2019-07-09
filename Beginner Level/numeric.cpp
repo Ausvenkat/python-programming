@@ -12,9 +12,9 @@ int main() {
 		
 	}
 	if(count==s.length()){
-		cout<<"yes";
+		cout<<"Yes";
 	}	else{
-		cout<<"no";
+		cout<<"No";
 	}
 
 }

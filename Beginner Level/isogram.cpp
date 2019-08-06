@@ -14,9 +14,9 @@ int main() {
 		
 	}
 	if(count==l){
-		cout<<"yes";
+		cout<<"Yes";
 	}
 	else{
-		cout<<"no";
+		cout<<"No";
 	}
 }

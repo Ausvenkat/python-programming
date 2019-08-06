@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-	string s;
-	cin>>s;
-	for(int i=0;i<s.length();i++)
+	string k;
+	cin>>k;
+	for(int i=0;i<k.length();i++)
 	{
-		if(s[i]>='0' && s[i]<='9'){
-			cout<<s[i];
+		if(k[i]>='0' && k[i]<='9'){
+			cout<<k[i];
 		}
 	}
 	return 0;

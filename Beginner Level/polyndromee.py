@@ -12,3 +12,28 @@ try:
 	     print("no")
 except:
   print("InvalidInput")
+
+
+
+#include <iostream>
+#include<string>
+using namespace std;
+int main() 
+{
+ int n,split,sum=0;
+ cin>>n;
+ int a=n;
+ while(n!=0){
+ 	split=n%10;
+ 	sum=sum*10+split;
+ 	n=n/10;
+ }
+ if(sum==a){
+ 	cout<<"yes";
+ }
+ else{
+ 	cout<<"no";
+ }
+    
+    return 0;
+}

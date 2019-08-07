@@ -10,7 +10,7 @@ int main()
 		cin>>a[i];
 	}
 	for(int i=0;i<no;i++){
-		if(a[i]>a[i+1]){
+		if(a[i]!=i+1){
 			cout<<i;		
 		}
 	}
